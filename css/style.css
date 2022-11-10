@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 100px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.gators{
+    color: red;
+}
+
+.logo p{
+    font-size: 40px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.nav{
+    font:20px sans-serif;
+    float: right;
+}
