@@ -22,7 +22,7 @@ font-size: 12pt;
 color:green;
 }
 .btn-style{
-    width: 100px;
+width: 100px;
 padding: 10px;
 border:1px solid white;
 background-color: white;
@@ -44,11 +44,11 @@ font-size: 11pt;
 display:none;
 }
 #register-div{
-    display:none;
+display:none;
 }
 
 #register-div :hover{
-    cursor: pointer;
+cursor: pointer;
 }
 #result-box{
     display:none;

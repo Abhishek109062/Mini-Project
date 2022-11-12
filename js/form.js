@@ -62,3 +62,20 @@ document.getElementById("login-btn").addEventListener('click', function(){
         document.getElementById("result") .innerHTML="Sorry ! <br>"+errorMessage;
         });
 });
+
+document.getElementById("log-out-btn").addEventListener('click' , function(){
+  document.getElementById("result-box").style.display="none";
+  document.getElementById("login-div").style.display="inline";
+  });    
+
+
+// document.getElementById("log-out-btn").addEventListener('click', function(){
+//   signOut(auth)
+//   .then(() => {
+//   document.getElementById("result-box").style.display="none";
+//   document.getElementById("login-div").style.display="inline";
+//   })
+//   .catch((error) =>{
+//   document.getElementById("result").innerHTML="Sorry ! <br>"+errorMessage;
+//   });
+// });
