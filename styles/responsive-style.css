@@ -1,0 +1,91 @@
+/* Media Query 1170px */
+@media (max-width:1170px) {
+
+    /* General CSS */
+    .section-subtitle {
+        max-width: 60%;
+    }
+
+    /* 01 Navbar CSS */
+    .header .navbar {
+        background-size: cover;
+        padding: 2rem;
+    }
+    .header .navbar-nav {
+        margin-top: 2rem;
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .ordernow{
+        padding: 15px 35px;
+        font-size: 1.4rem;
+    }
+    .bag{
+        padding:15px 15px;
+    }
+}
+
+/* Media Query 991px */
+@media (max-width:991px) {
+
+    /* 01 Navbar CSS */
+    .header .navbar {
+        background-size: cover;
+        padding: 2rem;
+    }
+    .header .navbar-nav {
+        margin-top: 2rem;
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .ordernow{
+        padding: 15px 35px;
+        font-size: 1.4rem;
+    }
+    .bag{
+        padding:15px 15px;
+    }
+
+
+    /* General CSS */
+    .about .banner_section,
+    .product .banner_section,
+    .Gallery .banner_section,
+    .contact .banner_section {
+        padding-top: 12.5rem;
+        padding-bottom: 3rem;
+    }
+}
+
+/* Media Query 767px */
+@media (max-width:767px) {
+
+    /* General CSS */
+    body,
+    html {
+        font-size: 8px;
+    }
+
+    .section-subtitle {
+        max-width: 80%;
+    }
+
+    /* 02 Banner Section */
+    
+}
+
+/* Media Query 590px */
+@media (max-width:590px) {
+
+    /* General CSS */
+    body,
+    html {
+        font-size: 7px;
+    }
+}

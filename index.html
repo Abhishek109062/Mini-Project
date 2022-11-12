@@ -1,26 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/Food-aggregators.ico">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Food Aggregators</title>
-</head>
-<body>
-    <div class="header">
-        <div class="icon">Icon</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style1.css" />
+    <title>Template-1</title>
+  </head>
+  <!-- Light BOX-->
+  <link href="path/to/lightbox.css" rel="stylesheet" />
 
-        <ul class = "uli">
-            <li>Home</li>
-            <li>Menu</li>
-            <li>About</li>
-            <li>Contact Us</li>
-            
-        </ul>
+  <!-- bootstrap 5 cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-        <div class="nav">NAV</div>
-    </div>
-</body>
+  <!-- font awesome cdn -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- style css -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/responsive-style.css">
+
+  <body>
+  
+    <header id="full_nav">
+      <div class="header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <img src="./images/images/logo.png" alt="" srcset="">  <!-- logo-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <ion-icon class="navbar-toggler-icon" name="menu-outline"></ion-icon>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Cities</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacts</a>
+                  </li>
+                </ul>
+                <a class="navbar-brand me-4 mt-1" href="#"><ion-icon class="bag " name="bag-handle-outline"></ion-icon></a>
+
+                <div class="nav-item mt-3 mt-lg-0">
+                  <a class="main-btn ordernow" href="./form.html">Login</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="banner_section">
+      <div class="container">
+          <div id="banner-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <div class="picture"><img src="./images/images/hero-banner.png" alt="" srcset=""></div>
+                      <div class="carousel-caption">
+                          <div class="banner-content">
+                              <h1>100% Organic</h1>
+                              <h3>Fresh & Natural Farm Food</h3>
+                              <p>The readable content of a page when looking at its layout point of using of letters,
+                                  as opposed.</p>
+                              <a href="product.html" class="btn main-btn">ALL PRoducts</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="picture"><img src="./images/images/cta-banner.png" alt="" srcset=""></div>
+                      <div class="carousel-caption">
+                          <div class="banner-content">
+                              <h1>100% Organic</h1>
+                              <h3>Fresh & Natural Farm Food</h3>
+                              <p>The readable content of a page when looking at its layout point of using of letters,
+                                  as opposed.</p>
+                              <a href="product.html" class="btn main-btn">ALL PRoducts</a>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- banner section exit -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap 5 cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+<!-- lightbox js file -->
+    <script src="./js/lightbox.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
