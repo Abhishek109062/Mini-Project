@@ -1,110 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Fasteat - The Best Restaurants In Your Home</title>
-  <meta name="title" content="Fasteat - The Best Restaurants In Your Home">
-  <meta name="description" content="This is a food html template made by codewithsadee">
-
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./css/style.css">
-
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- 
-    - preload images
-  -->
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/form.css">
+    <script type="module" src="./js/form.js"></script>
 </head>
 <body>
-
-    <!-- 
-      - #PRELOADER
-    -->
-  
-    <div class="loading-container" data-loading-container>
-      <div class="loading-circle"></div>
-    </div>
-  
-  
-  
-  
-  
-    <!-- 
-      - #HEADER
-    -->
-  
-    <header class="header" data-header>
-      <div class="container">
-  
-        <a href="#" class="logo">
-          <img src="./assets/images/logo.svg" width="148" height="38" alt="Fasteat home">
-        </a>
-  
-        <nav class="navbar" data-navbar>
-          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-          </button>
-  
-          <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" width="148" height="38" alt="Fasteat home">
-          </a>
-  
-          <ul class="navbar-list">
-  
-            <li class="navbar-item">
-              <a href="#" class="navbar-link" data-nav-link>Home</a>
-            </li>
-  
-            <li class="navbar-item">
-              <a href="#" class="navbar-link" data-nav-link>About Us</a>
-            </li>
-  
-            <li class="navbar-item">
-              <a href="#" class="navbar-link" data-nav-link>Restaurants</a>
-            </li>
-  
-            <li class="navbar-item">
-              <a href="#" class="navbar-link" data-nav-link>Contacts</a>
-            </li>
-  
-          </ul>
-        </nav>
-  
-        <div class="header-action">
-          <button class="cart-btn" aria-label="cart">
-            <ion-icon name="bag" aria-hidden="true"></ion-icon>
-          </button>
-  
-          <a href="#" class="btn btn-primary has-after">Order Now</a>
+        <div class="center-box" id="login-div">
+            <h2 >Login</h2>
+            <input type="email" id="login-email" class="text-field" name = "login-email" placeholder="Email" required/><br>
+            <input type="password" id="login-password" class="text-field" name = "login-password" placeholder="Password" required/><br>
+            <button id="login-btn" class="btn-style">Login</button><br>
+            <button id="reg-btn" class="an-btn">Don't have an account? REGISTER</button>
         </div>
-  
-        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-        </button>
-  
-        <div class="overlay" data-overlay data-nav-toggler></div>
-  
-      </div>
-    </header>
-
- </body>
+        <div class="center-box" id="register-div">
+            <h2>Register</h2>
+            <input type="email" id="register-email" class = "text-field" name = "register-email" placeholder="Email" required/><br>
+            <input type="password" id="register-password" class = "text-field" name = "register-password" placeholder = "Password" required/><br>
+            <button id="register-btn" class="btn-style">Register</button><br>
+            <button id="log-btn" class="an-btn">Have an account? LOGIN</button>
+        </div>
+        <div id="result-box">
+            <h3 id="result"></h3>
+        </div>
+</body>
+</html>
