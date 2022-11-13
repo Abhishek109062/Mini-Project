@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
@@ -38,65 +40,8 @@ html {
     scroll-behavior: smooth;
     line-height: 1.5;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
-
-h1 {
-    font-size: 9rem;
-    line-height: 1.4;
-    font-weight: 600;
-    color: var(--primary-text);
-}
-
-h2 {
-    color: var(--primary-text);
-    font-size: 4.7rem;
-    font-weight: 600;
-    display: inline-block;
-    text-transform: capitalize;
-    line-height: 1.2;
-    margin-bottom: 2rem;
-}
-
-h3 {
-    color: var(--text-white);
-    font-size: 3.1rem;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-h4 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1;
-    color: var(--primary-text);
-}
-
-h5 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    line-height: 1;
-    color: var(--primary-text);
-}
-p {
-    font-size: 1.6rem;
-    line-height: 1.6;
-    margin-top: 1rem;
-    color: var(--primary-text);
-    font-family: var(--secondary-font);
-}
-embed,
-iframe,
-img,
-object {
-    max-width: 100%;
+body{
+    /* background: url('../images/images/hero-bg.png'); */
 }
 
 ul {
@@ -156,75 +101,15 @@ button:hover {
     color: var(--secondary-color);
     border: 0.2rem solid var(--secondary-color);
 }
-section {
-    padding: 5rem 0;
-}
 
-.section-title {
-    font-size: 4rem;
-    font-weight: 600;
-    color: var(--primary-text);
-    text-transform: capitalize;
-    margin-bottom: 2rem;
-}
 
-.section-subtitle {
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: var(--primary-text);
-    font-family: var(--secondary-font);
-    max-width: 40%;
-    margin: auto;
-    margin-bottom: 1.5rem;
-}
-
-.about .banner_section,
-.gallery .banner_section
- {
-    background: url('../images/images/hero-bg.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 17rem;
-    padding-bottom: 10rem;
-    min-height: auto;
-}
-/* 
-.contact .contact-form,
-.distributors .contact-form {
-    background-color: var(--light-color);
-    padding: 5rem;
-    box-shadow: 0 0.2rem 1.5rem rgb(0 0 0 / 4%);
-}
-
-.contact .contact-form .form-control:focus,
-.distributors .contact-form .form-control:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-.contact .contact-form .form-control::placeholder,
-.distributors .contact-form .form-control::placeholder {
-    color: var(--primary-text);
-}
-
-.contact .contact-form .form-control,
-.distributors .contact-form .form-control {
-    padding: 1rem 1.5rem;
-    border-radius: 0.rem;
-    border: 0.1rem solid var(--secondary-color);
-    color: var(--primary-text);
-    font-size: 1.5rem;
-    font-weight: 400;
-    font-family: var(--secondary-font);
-} */
 
 /* navbar css */
-.header {
-    position: absolute;
+    .header {
+    position: fix;
     width: 100%;
     top: 2rem;
-    left: 0;
+    left: 0; 
     z-index: 2;
 }
 
@@ -278,50 +163,10 @@ section {
     transition: 0.3s ease-in-out;
 }
 
-.banner_section {
-    background: url('../images/images/hero-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-height: 100vh;
-}
-
-.banner_section .carousel-item {
-    padding: 3rem 0;
-    height: 90vh;
-}
-.banner_section .picture{
-    width: 400px;
-    height: 500px;
-    position: absolute;
+.main {
     top: 10rem;
-    right:0;
+    
 }
-
-.banner_section .carousel-caption {
-    top: 30%;
-    bottom: 0;
-    left: 3%;
-    right: 0;
-    text-align: left;
-    width: 100%;
-}
-
-.banner_section .carousel-caption h3 {
-    padding: 0.5rem 1.5rem;
-    background-color: var(--dark-color);
-    display: inline;
-}
-
-.banner_section .carousel-caption p {
-    max-width: 40rem;
-    margin-bottom: 2rem;
-}
-
-
-
-
-
 
 
 .bag{
@@ -335,3 +180,150 @@ section {
     background-color: green;
     transition: all 0.4s ease-in-out;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding:.8rem 3rem;
+}
+
+.btn:hover{
+    background: var(--green);
+    letter-spacing: .1rem;
+}
+
+.dishes{
+    background: url('../images/images/hero-bg.png');
+    margin-top: 15rem;
+    padding: 0 20rem;
+    padding-bottom: 10rem;
+}
+
+.sub-heading{
+    text-align: center;
+    color:var(--green);
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.heading{
+    text-align: center;
+    color:var(--black);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.dishes .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr)) !important;
+    gap:1.5rem;
+}
+
+.dishes .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.dishes .box-container .box .heart,
+.dishes .box-container .box .eye{
+    position: absolute;
+    top:1.5rem;
+    background:#eee;
+    border-radius: 50%;
+    height: 5rem;
+    width:5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:var(--black);
+}
+
+.dishes .box-container .box .heart:hover,
+.dishes .box-container .box .eye:hover{
+    background: var(--green);
+    color:#fff;
+}
+
+.dishes .box-container .box .heart{
+    right:-15rem;
+}
+
+.dishes .box-container .box .eye{
+    left:-15rem;
+}
+
+.dishes .box-container .box:hover .heart{
+    right:1.5rem;
+}
+
+.dishes .box-container .box:hover .eye{
+    left:1.5rem;
+}
+
+.dishes .box-container .box img{
+    height:17rem;
+    margin:1rem 0;
+}
+
+.dishes .box-container .box h3{
+    color:var(--black);
+    font-size: 2.5rem;
+}
+
+.dishes .box-container .box .stars{
+    padding:1rem 0;
+}
+
+.dishes .box-container .box .stars ion-icon{
+    font-size: 1.7rem;
+    color:var(--green);
+}
+
+.dishes .box-container .box span{
+    color:var(--green);
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+
