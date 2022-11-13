@@ -370,9 +370,35 @@ section {
     border-color: #36970e;
 }
 
+/* About Section */
 
+.landing_about_section {
+    background: url('../images/images/partner-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 9rem 0;
+}
 
+.landing_about_section p {
+    color: var(--primary-text);
+    margin-bottom: 2rem;
+}
 
+/*
+==========================================
+  counter Design
+==========================================
+*/
+.counter-section{
+    background-color: var(--primary-color);
+    padding:2.5rem 0;
+  }
+  .counter-section p{
+    color:var(--white-color);
+    text-transform: uppercase;
+  }
+   
 
 
 .bag{
