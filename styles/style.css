@@ -220,63 +220,8 @@ section {
 } */
 
 /* navbar css */
-.header {
-    position: fix;
-    width: 100%;
-    top: 2rem;
-    left: 0;
-    z-index: 2;
-}
 
-.header .navbar {
-    background: url('../images/images/header-bg.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    padding: 2rem 5rem;
-}
-.navbar-brand {  /*logo class*/
-    width: 7.5rem;
-    margin-top: -0.1rem;
-}
-.header .navbar-nav .nav-link {
-    color: var(--text-white);
-    text-transform: uppercase;
-    font-size: 1.6rem;
-    font-weight: 600;
-    padding: 0.5rem 2rem;
-    margin: 0 0.2rem;
-    font-family: var(--primary-font);
-}
-.header .navbar-nav .nav-link:hover,
-.header .navbar-nav .nav-link.active {
-    color: var(--secondary-color);
-}
 
-.header .navbar-toggler {
-    color: var(--text-white);
-    font-size: 2rem;
-    height: 2.7rem;
-    padding: 0;
-}
-
-.header .navbar-toggler:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-.header-scrolled {    /*js to be applied*/
-    position: fixed;
-    top: -0.4rem;
-    left: 0;
-    right: 0;
-    width: 100%;
-    max-width: 1320px;
-    margin: auto;
-    z-index: 999;
-    /* box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 / 8%); */
-    transition: 0.3s ease-in-out;
-}
 
 .banner_section {
     background: url('../images/images/hero-bg.png');
@@ -316,22 +261,4 @@ section {
 .banner_section .carousel-caption p {
     max-width: 40rem;
     margin-bottom: 2rem;
-}
-
-
-
-
-
-
-
-.bag{
-    font-size: 20px;
-    color: black;
-    padding:12px 12px;
-    background-color: #fff;
-    border-radius:20px ;
-}
-.bag:hover{
-    background-color: green;
-    transition: all 0.4s ease-in-out;
 }
