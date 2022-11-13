@@ -264,6 +264,60 @@ section {
 }
 
 
+
+/* Features CSS */
+
+.feature_section .features-box {
+    background-color: transparent;
+    border: 0.15rem solid var(--light-color);
+    padding: 8rem 0;
+    transition: all 0.3s;
+}
+
+.feature_section .features-box .features-icon-border {
+    background-color: transparent;
+    border-radius: 30%;
+    border: 0.2rem solid var(--light-color);
+    padding: 1.3rem;
+    display: inline-block;
+}
+
+.feature_section .features-box .features-icon {
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--light-color);
+    margin: auto;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature_section .features-box .features-icon img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.feature_section .features-box h3 {
+    margin-top: 1.5rem;
+    color: var(--primary-text);
+}
+
+.feature_section .features-box:hover {
+    background-color: #03262c;
+    border-color: #03262c;
+}
+
+.feature_section .features-box:hover h3 {
+    color: #fff;
+}
+
+.feature_section .features-box:hover .features-icon-border {
+    border-color: #36970e;
+}
+
+
+
 /* About Section */
 
 .landing_about_section {
