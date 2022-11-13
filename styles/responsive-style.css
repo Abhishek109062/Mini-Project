@@ -1,4 +1,21 @@
 /* Media Query 1170px */
+@media screen and (max-width: 1980px) {
+    .header .navbar{
+        max-width: 95%;
+    }
+    .banner_section .picture{
+        top: 30%;
+        right:5rem;
+    }
+    .banner_section .picture{
+        top: 30%;
+        right:5rem;
+    }
+    .banner_section .carousel-caption {
+        top: 40%;
+        width: 100%;
+    }
+}
 @media (max-width:1170px) {
 
     /* General CSS */
@@ -26,6 +43,13 @@
     .bag{
         padding:15px 15px;
     }
+    .banner_section .picture{
+        top: 30%;
+        right:5rem;
+    }
+    .banner_section .carousel-caption {
+        top: 40%;
+    }
 }
 
 /* Media Query 991px */
@@ -51,6 +75,13 @@
     .bag{
         padding:15px 15px;
     }
+    .banner_section .picture{
+        top: 25%;
+        right:5rem;
+    }
+    .banner_section .carousel-caption {
+        top: 35%;
+    }
 
 
     /* General CSS */
@@ -75,7 +106,16 @@
     .section-subtitle {
         max-width: 80%;
     }
-
+    .banner_section .picture{
+        top: 30%;
+        right:5rem;
+        height:300px ;
+        width: 300px;
+    }
+    .banner_section .carousel-caption {
+        top: 40%;
+        width: 80%;
+    }
     /* 02 Banner Section */
     
 }
@@ -87,5 +127,15 @@
     body,
     html {
         font-size: 7px;
+    }
+    .banner_section .picture{
+        top: 30%;
+        right:5rem;
+        height:300px ;
+        width: 300px;
+    }
+    .banner_section .carousel-caption {
+        top: 40%;
+        width: 80%;
     }
 }

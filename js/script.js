@@ -1,13 +1,18 @@
-var n = document.getElementById("name");
-var roll = document.getElementById("rollno");
-var date = document.getElementById("date");
+// Header Scroll 
+let nav = document.querySelector(".navbar");
+window.onscroll = function() {
+    if(document.documentElement.scrollTop > 50){
+        nav.classList.add("header-scrolled"); 
+    }else{
+        nav.classList.remove("header-scrolled");
+    }
+}
 
-n.innerHTML = "Ankur Gupta";
-roll.innerHTML = "201500103";
-
-var day = new Date();
-var dte = day.getDate();
-var month = day.getMonth();
-var year = day.getFullYear();
-
-date.innerHTML = `${dte}-${month}-${year}`;
+// nav hide  
+let navBar = document.querySelectorAll(".nav-link");
+let navCollapse = document.querySelector(".navbar-collapse.collapse");
+navBar.forEach(function(a){
+    a.addEventListener("click", function(){
+        navCollapse.classList.remove("show");
+    })
+})
