@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
@@ -41,7 +39,8 @@ html {
     line-height: 1.5;
 }
 body{
-    /* background: url('../images/images/hero-bg.png'); */
+    background: url('../images/images/hero-bg.png');
+    background-repeat: no-repeat;
 }
 
 ul {
@@ -105,7 +104,7 @@ button:hover {
 
 
 /* navbar css */
-    .header {
+.header {
     position: fix;
     width: 100%;
     top: 2rem;
@@ -165,7 +164,6 @@ button:hover {
 
 .main {
     top: 10rem;
-    
 }
 
 
@@ -228,7 +226,6 @@ button:hover {
 }
 
 .dishes{
-    background: url('../images/images/hero-bg.png');
     margin-top: 15rem;
     padding: 0 20rem;
     padding-bottom: 10rem;
@@ -270,19 +267,22 @@ button:hover {
 .dishes .box-container .box .eye{
     position: absolute;
     top:1.5rem;
-    background:#eee;
+    background: white;
     border-radius: 50%;
-    height: 5rem;
-    width:5rem;
+    height: 3rem;
+    width:3rem;
     line-height: 5rem;
     font-size: 2rem;
     color:var(--black);
 }
 
-.dishes .box-container .box .heart:hover,
+.dishes .box-container .box .heart:hover{
+        background: white;
+        color: red;
+}
 .dishes .box-container .box .eye:hover{
-    background: var(--green);
-    color:#fff;
+    background: white;
+    color: rgb(126, 243, 212);
 }
 
 .dishes .box-container .box .heart{
@@ -325,5 +325,22 @@ button:hover {
     font-weight: bolder;
     margin-right: 1rem;
     font-size: 2.5rem;
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .dishes .box-container .box img{
+        height:auto;
+        width: 100%;
+    }
+
+    .order form .inputBox .input{
+        width:100%;
+    }
+
 }
 

@@ -221,7 +221,7 @@ section {
 
 /* navbar css */
 .header {
-    position: absolute;
+    position: fix;
     width: 100%;
     top: 2rem;
     left: 0;
