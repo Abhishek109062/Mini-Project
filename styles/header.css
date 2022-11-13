@@ -108,7 +108,7 @@ button:hover {
 }
 
 .header .navbar {
-    /* background: url('../images/images/header-bg.png'); */
+    /* background: url('../images/header-bg.png'); */
     /* background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -177,13 +177,6 @@ button:hover {
 
 
 /* Responsive */
-@media screen and  (min-width:1500){
-    .dishes .box-container{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr)) !important;
-        gap:1.5rem;
-    }
-}
 
 
 @media (max-width:1170px) {
@@ -192,38 +185,8 @@ button:hover {
     .section-subtitle {
         max-width: 60%;
     }
-
-    /* 01 Navbar CSS */
-    .header .navbar {
-        background-size: cover;
-        padding: 2rem;
-    }
-    .header .navbar-nav {
-        margin-top: 2rem;
-    }
-
-    .header .navbar-nav .nav-link {
-        padding: 0.2rem 0.5rem;
-        margin-bottom: 1rem;
-    }
 }
 
-@media (max-width:991px) {
-
-    /* 01 Navbar CSS */
-    .header .navbar {
-        background-size: cover;
-        padding: 2rem;
-    }
-    .header .navbar-nav {
-        margin-top: 2rem;
-    }
-
-    .header .navbar-nav .nav-link {
-        padding: 0.2rem 0.5rem;
-        margin-bottom: 1rem;
-    }
-}
 
 @media (max-width:767px) {
 
@@ -239,19 +202,9 @@ button:hover {
 }
 
 
-@media (max-width:590px){
+@media (max-width:550px){
 
     html{
         font-size: 50%;
     }
-
-    .dishes .box-container .box img{
-        height:auto;
-        width: 100%;
-    }
-
-    .order form .inputBox .input{
-        width:100%;
-    }
-
 }

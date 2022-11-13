@@ -181,7 +181,7 @@ section {
 .about .banner_section,
 .gallery .banner_section
  {
-    background: url('../images/images/hero-bg.png');
+    background: url('../images/hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -224,7 +224,7 @@ section {
 
 
 .banner_section {
-    background: url('../images/images/hero-bg.png');
+    background: url('../images/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -321,7 +321,7 @@ section {
 /* About Section */
 
 .landing_about_section {
-    background: url('../images/images/partner-1.jpg');
+    background: url('../images/partner-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
