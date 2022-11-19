@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(0, 109, 128);
+    background: url("../images/hero-bg.png");
 }
 .center-box{
 position: absolute;
@@ -7,38 +7,52 @@ top:50%;
 left:50%;
 transform: translate(-50%,-50%);
 border: 2px solid white;
-border-radius: 40px;
-width:300px;
-height:320px;
+background-color: orange;
+width:400px;
+height:400px;
 text-align: center;
 color:white;
+transition: background-color 1s;
+}
+
+.center-box:hover{
+    background-color: rgb(33, 143, 254);
 }
 .text-field{
 padding: 10px 30px;
 margin: 20px 0;
 border: 2px solid white;
-border-radius: 10px;
+/* border-radius: 10px; */
 font-size: 12pt;
 color:green;
+transition: background-color 1s;
 }
+
 .btn-style{
 width: 100px;
 padding: 10px;
 border:1px solid white;
 background-color: white;
-color:green;
+color: #000;
+transition: background-color 1s;
 }
 .btn-style:hover{
-background-color: rgb(209, 141, 255);
+background-color: rgb(255, 141, 145);
 color:white;
 }
 .an-btn{
     width: 280px;
 margin-top: 10px;
+/* border-radius: 2rem; */
 border: 0;
-background-color: rgb(0, 109, 128);
-color:white;
+background-color: white;
+color:black;
 font-size: 11pt;
+transition: background-color 1s;
+}
+.an-btn:hover{
+    background-color: rgb(255, 141, 145);
+    color:white;
 }
 #register-div{
 display:none;
@@ -57,5 +71,6 @@ cursor: pointer;
     left:50%;
     transform: translate(-50%,-50%);
     font-size: 14pt;
-    color: white;
+    color: black;
 }
+

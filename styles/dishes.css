@@ -15,7 +15,7 @@ body{
 
 .btn{
     margin-top: 1rem;
-    display: inline-block;
+    /* display: ; */
     font-size: 1.7rem;
     color:#fff;
     background: var(--black);
@@ -38,7 +38,7 @@ body{
 .sub-heading{
     text-align: center;
     color:var(--green);
-    font-size: 2rem;
+    font-size: 4rem;
     padding-top: 1rem;
 }
 
@@ -132,16 +132,16 @@ body{
 }
 
 
+.tags{
+    font-size: 30px;
+}
+
 
 /* Media Query */
 
 @media (max-width:550px) {
     .dishes .box-container{
     grid-template-columns: repeat(1, minmax(28rem, 1fr)) !important;
-    }
-    .dishes .box-container .box img{
-        height:auto;
-        width: auto;
     }
 
     .order form .inputBox .input{
@@ -193,9 +193,11 @@ body{
 
 @media (min-width:1500px) {
     .dishes .box-container{
+        /* width: fit-content; */
         grid-template-columns: repeat(3, minmax(28rem, 1fr)) !important;
     }
 }
+
 
 
 
