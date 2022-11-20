@@ -144,10 +144,10 @@ button:hover {
   /* transition: all 0.4s ease-in-out; */
   padding: 10px 27px;
   background-color: var(--bg-white);
-  border: 2px solid yellow;
-  color: grey;
-  font-weight: 500;
-  /* font-size: 14px; */
+  border: 2px solid #99582a;
+  color: #46494c;
+  font-weight: 700;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-decoration: none;
