@@ -1,42 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
-*, *::before, *::after {
-    -webkit-box-sizing: border-box;  /*used for browser support-chrome and safari*/
-    -moz-box-sizing: border-box;  /*for firefox*/
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    outline: none;
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box; /*used for browser support-chrome and safari*/
+  -moz-box-sizing: border-box; /*for firefox*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
 }
 
 :root {
+  /* Background Color */
+  --bg-white: #fff;
 
-    /* Background Color */
-    --bg-white:#fff;
+  /* Text Colors */
+  --primary-text: #061738;
+  --secondary-color: #60cd12;
+  --light-color: #e2f6de;
+  --dark-color: #03262c;
+  --text-white: #fff;
+  --text-gray: #dee2e6;
+  --anchor-color: #007aff;
 
-    /* Text Colors */
-    --primary-text: #061738;
-    --secondary-color: #60cd12;
-    --light-color: #e2f6de;
-    --dark-color: #03262c;
-    --text-white: #fff;
-    --text-gray: #dee2e6;
-    --anchor-color: #007aff;
-
-    /* Font Family */
-    --primary-font: 'Barlow Condensed', sans-serif;
-    --secondary-font: 'Roboto', sans-serif;
+  /* Font Family */
+  --primary-font: "Barlow Condensed", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
 }
 body,
 html {
-    color: var(--primary-text);
-    font-size: 10px;    /*1rem=10px*/
-    font-weight: 400;
-    font-family: var(--primary-font);
-    scroll-behavior: smooth;
-    line-height: 1.5;
+  color: var(--primary-text);
+  font-size: 10px; /*1rem=10px*/
+  font-weight: 400;
+  font-family: var(--primary-font);
+  scroll-behavior: smooth;
+  line-height: 1.5;
 }
 h1,
 h2,
@@ -45,64 +46,64 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 h1 {
-    font-size: 9rem;
-    line-height: 1.4;
-    font-weight: 600;
-    color: var(--primary-text);
+  font-size: 9rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--primary-text);
 }
 
 h2 {
-    color: var(--primary-text);
-    font-size: 4.7rem;
-    font-weight: 600;
-    display: inline-block;
-    text-transform: capitalize;
-    line-height: 1.2;
-    margin-bottom: 2rem;
+  color: var(--primary-text);
+  font-size: 4.7rem;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: capitalize;
+  line-height: 1.2;
+  margin-bottom: 2rem;
 }
 
 h3 {
-    color: var(--text-white);
-    font-size: 3.1rem;
-    line-height: 1.2;
-    font-weight: 700;
+  color: var(--text-white);
+  font-size: 3.1rem;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 h4 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1;
-    color: var(--primary-text);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--primary-text);
 }
 
 h5 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    line-height: 1;
-    color: var(--primary-text);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--primary-text);
 }
 p {
-    font-size: 1.6rem;
-    line-height: 1.6;
-    margin-top: 1rem;
-    color: var(--primary-text);
-    font-family: var(--secondary-font);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+  color: var(--primary-text);
+  font-family: var(--secondary-font);
 }
 embed,
 iframe,
 img,
 object {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 a,
@@ -110,84 +111,83 @@ a:active,
 a:focus,
 a:hover,
 button {
-    text-decoration: none;
-    outline: 0;
+  text-decoration: none;
+  outline: 0;
 }
 
 li a {
-    color: var(--text-white);
+  color: var(--text-white);
 }
 
 a:hover,
 button:hover {
-    -webkit-transition: all 0.4s ease-in;
-    -o-transition: all 0.4s ease-in;
-    -moz-transition: all 0.4s ease-in;
-    transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
-} 
-::-webkit-scrollbar-track {
-    background:var(--white); 
-} 
-::-webkit-scrollbar-thumb {
-    background: var(--secondary-color); 
-}  
-
-.main-btn{
-    position: relative;
-    display: inline-block;
-    border-radius: 50px;
-    /* transition: all 0.4s ease-in-out; */
-    padding: 10px 27px;
-    background-color: var(--bg-white);
-    border: 2px solid yellow;
-    color: grey;
-    font-weight: 500;
-    /* font-size: 14px; */
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-decoration: none;
+  width: 10px;
 }
-.main-btn:hover{
-    background: var(--bg-white);
-    color: var(--secondary-color);
-    border: 0.2rem solid var(--secondary-color);
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+}
+
+.main-btn {
+  position: relative;
+  display: inline-block;
+  border-radius: 50px;
+  /* transition: all 0.4s ease-in-out; */
+  padding: 10px 27px;
+  background-color: var(--bg-white);
+  border: 2px solid yellow;
+  color: grey;
+  font-weight: 500;
+  /* font-size: 14px; */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.main-btn:hover {
+  background: var(--bg-white);
+  color: var(--secondary-color);
+  border: 0.2rem solid var(--secondary-color);
 }
 section {
-    padding: 5rem 0;
+  padding: 5rem 0;
 }
 
 .section-title {
-    font-size: 4rem;
-    font-weight: 600;
-    color: var(--primary-text);
-    text-transform: capitalize;
-    margin-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--primary-text);
+  text-transform: capitalize;
+  margin-bottom: 2rem;
 }
 
 .section-subtitle {
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: var(--primary-text);
-    font-family: var(--secondary-font);
-    max-width: 40%;
-    margin: auto;
-    margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--primary-text);
+  font-family: var(--secondary-font);
+  max-width: 40%;
+  margin: auto;
+  margin-bottom: 1.5rem;
 }
 
 .about .banner_section,
-.gallery .banner_section
- {
-    background: url('../images/hero-bg.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 17rem;
-    padding-bottom: 10rem;
-    min-height: auto;
+.gallery .banner_section {
+  background: url("../images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 17rem;
+  padding-bottom: 10rem;
+  min-height: auto;
 }
 /* 
 .contact .contact-form,
@@ -221,116 +221,110 @@ section {
 
 /* navbar css */
 
-
-
 .banner_section {
-    background: url('../images/hero-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-height: 100vh;
+  background: url("../images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 100vh;
 }
 
 .banner_section .carousel-item {
-    padding: 3rem 0;
-    height: 90vh;
+  padding: 3rem 0;
+  height: 90vh;
 }
-.banner_section .picture{
-    width: 400px;
-    height: 500px;
-    position: absolute;
-    top: 10rem;
-    right:0;
+.banner_section .picture {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 10rem;
+  right: 0;
 }
 
 .banner_section .carousel-caption {
-    top: 30%;
-    bottom: 0;
-    left: 3%;
-    right: 0;
-    text-align: left;
-    width: 100%;
+  top: 30%;
+  bottom: 0;
+  left: 3%;
+  right: 0;
+  text-align: left;
+  width: 100%;
 }
 
 .banner_section .carousel-caption h3 {
-    padding: 0.5rem 1.5rem;
-    background-color: var(--dark-color);
-    display: inline;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--dark-color);
+  display: inline;
 }
 
 .banner_section .carousel-caption p {
-    max-width: 40rem;
-    margin-bottom: 2rem;
+  max-width: 40rem;
+  margin-bottom: 2rem;
 }
-
-
 
 /* Features CSS */
 
 .feature_section .features-box {
-    background-color: transparent;
-    border: 0.15rem solid var(--light-color);
-    padding: 8rem 0;
-    transition: all 0.3s;
+  background-color: transparent;
+  border: 0.15rem solid var(--light-color);
+  padding: 8rem 0;
+  transition: all 0.3s;
 }
 
 .feature_section .features-box .features-icon-border {
-    background-color: transparent;
-    border-radius: 30%;
-    border: 0.2rem solid var(--light-color);
-    padding: 1.3rem;
-    display: inline-block;
+  background-color: transparent;
+  border-radius: 30%;
+  border: 0.2rem solid var(--light-color);
+  padding: 1.3rem;
+  display: inline-block;
 }
 
 .feature_section .features-box .features-icon {
-    height: 15rem;
-    width: 15rem;
-    background-color: var(--light-color);
-    margin: auto;
-    border-radius: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 15rem;
+  width: 15rem;
+  background-color: var(--light-color);
+  margin: auto;
+  border-radius: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .feature_section .features-box .features-icon img {
-    width: 10rem;
-    height: 10rem;
+  width: 10rem;
+  height: 10rem;
 }
 
 .feature_section .features-box h3 {
-    margin-top: 1.5rem;
-    color: var(--primary-text);
+  margin-top: 1.5rem;
+  color: var(--primary-text);
 }
 
 .feature_section .features-box:hover {
-    background-color: #03262c;
-    border-color: #03262c;
+  background-color: #03262c;
+  border-color: #03262c;
 }
 
 .feature_section .features-box:hover h3 {
-    color: #fff;
+  color: #fff;
 }
 
 .feature_section .features-box:hover .features-icon-border {
-    border-color: #36970e;
+  border-color: #36970e;
 }
-
-
 
 /* About Section */
 
 .landing_about_section {
-    background: url('../images/partner-1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 9rem 0;
+  background: url("../images/partner-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 9rem 0;
 }
 
 .landing_about_section p {
-    color: var(--primary-text);
-    margin-bottom: 2rem;
+  color: var(--primary-text);
+  margin-bottom: 2rem;
 }
 
 /*
@@ -338,25 +332,310 @@ section {
   counter Design
 ==========================================
 */
-.counter-section{
-    background-color: var(--primary-color);
-    padding:2.5rem 0;
-  }
-  .counter-section p{
-    color:var(--white-color);
-    text-transform: uppercase;
-  }
-   
-
-
-.bag{
-    font-size: 20px;
-    color: black;
-    padding:12px 12px;
-    background-color: #fff;
-    border-radius:20px ;
+.counter-section {
+  background-color: var(--primary-color);
+  padding: 2.5rem 0;
 }
-.bag:hover{
-    background-color: green;
-    transition: all 0.4s ease-in-out;
+.counter-section p {
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
+/*
+==========================================
+ about section Design
+==========================================
+*/
+.about-section {
+  background: var(--white-color);
+}
+.about-section .card,
+.about-section .card img {
+  border-radius: 0.625rem;
+}
+.about-section .text-sec {
+  padding-left: 2rem;
+}
+
+/*
+==========================================
+ food type section Design
+==========================================
+*/
+.food-type {
+  padding-top: 3.25rem;
+}
+.food-type ul li {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 32px;
+  position: relative;
+  margin-left: 30px;
+}
+.food-type ul li::before {
+  position: absolute;
+  left: -2.1875rem;
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+.story-section {
+  width: 100%;
+  height: 28.125rem;
+  background: url("../images/bg/bg-2.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 100px;
+  text-align: center;
+}
+.story-section h2 {
+  color: var(--primary-color);
+}
+
+/*
+==========================================
+ explore food section Design
+==========================================
+*/
+.explore-food .card {
+  border: none;
+  background-color: transparent;
+  border-radius: 0.9375rem;
+}
+.explore-food .card img {
+  border-radius: 0.9375rem;
+  object-fit: cover;
+}
+.explore-food .card span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding-bottom: 1rem;
+  border-bottom: 0.0625rem solid #eee;
+}
+.explore-food .card span del {
+  color: var(--text-gray);
+  margin-left: 0.5rem;
+}
+/* product card design */
+
+.landing_product_section .product-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: transparent;
+  border: 0.2rem solid var(--light-color);
+  padding: 2rem 1rem;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.landing_product_section .product-card .product-img {
+  margin-bottom: 7rem;
+  text-align: center;
+}
+
+.landing_product_section .product-card h3 {
+  color: var(--primary-text);
+}
+
+.landing_product_section .product-card span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  margin-right: 0.5rem;
+  text-decoration: line-through;
+  transition: all 0.3s;
+
+}
+
+.landing_product_section .product-detail {
+  position: absolute;
+  bottom: -22rem;
+  right: 0;
+  left: 0;
+  text-align: center;
+  padding: 5rem 1rem;
+  background-color: var(--dark-color);
+  transition: all 0.5s ease;
+}
+
+.landing_product_section .product-card:hover .product-detail {
+  bottom: 0;
+}
+/*
+==========================================
+FAQ section Design
+==========================================
+*/
+.faq h4 span{
+    color:red;
+    font-size: 1.875rem;
+    margin-right:0.3125rem;
+  } 
+  .book-food{
+    width:100%;
+    background:url(../images/partner-1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:0 71.9125px;
+    padding:4.375rem 0
+  }
+
+  
+
+/* Form Control */
+.newsletter{
+    width:55%;
+    margin:0 auto;
+  }
+  .newsletter .form-control{
+    height:3.225rem;
+    padding:0 1.25rem;
+    font-size: 0.875rem; 
+    width:100%;
+    border:none;
+    border-radius: 0;
+    background:transparent;
+    border:0.1875rem solid var(--text-gray);
+    color:var(--black-color);
+    font-weight: 700;
+  }
+  .newsletter .form-control:hover,
+  .newsletter .form-control:focus{
+    outline:none;
+    box-shadow: none;
+    border-color:var(--primary-color);
+  }
+  
+  /* Footer CSS */
+
+.footer_wrapper {
+  background: url('../images/footer_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  /* padding-top: 15rem; */
+  padding-bottom: 0rem;
+}
+
+.footer_wrapper h5 {
+  color: var(--text-white);
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.footer_wrapper ul li {
+  margin-bottom: .5rem;
+  list-style: none;
+}
+
+.footer_wrapper .company_details {
+  font-size: 1.4rem;
+}
+
+.footer_wrapper .contact-info li a {
+  color: var(--text-gray);
+  font-size: 1.6rem;
+}
+
+.footer_wrapper .link-widget li a,
+.footer_wrapper p {
+  color: var(--text-gray);
+  font-size: 1.6rem;
+  padding-left: 1.5rem;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.footer_wrapper .link-widget li a::before {
+  content: '\f105';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0.3rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.footer_wrapper .link-widget li a:hover {
+  margin-left: .625rem;
+  color: var(--secondary-color);
+}
+
+.footer_wrapper .social-network a {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: .5rem;
+  line-height: 3.2rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  border: .125rem solid var(--text-gray);
+  color: var(--text-gray);
+  text-align: center;
+  border-radius: 100%;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.footer_wrapper .social-network a:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--text-white);
+  box-shadow: 0 .625rem .9375rem 0 rgb(0 0 0 / 10%);
+  transform: translateY(-0.1875rem);
+}
+
+.footer_wrapper .form-control {
+  font-size: 2rem;
+  color: white;
+}
+
+.footer_wrapper .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: black;
+}
+
+.footer_wrapper .copyright-section {
+  border-top: 1px solid #000;
+  border-color: black;
+  background-color: black;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.footer_wrapper .copyright-section p {
+  margin-top: 0;
+  padding: 3rem 0;
+  line-height: 0;
+}
+
+.footer_wrapper .copyright-section a {
+  color: white;
+  font-weight: 600;
+}
+
+
+
+/* bag deign */
+
+.bag {
+  font-size: 20px;
+  color: black;
+  padding: 12px 12px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.bag:hover {
+  background-color: green;
+  transition: all 0.4s ease-in-out;
 }

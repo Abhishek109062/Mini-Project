@@ -3,7 +3,7 @@ let nav = document.querySelector(".navbar");
 window.onscroll = function() {
     if(document.documentElement.scrollTop > 50){
         nav.classList.add("header-scrolled"); 
-        document.getElementById("navvvv").style.backgroundColor = "#DDFFF7";
+        document.getElementById("navvvv").style.backgroundColor = "white";
     }else{
         nav.classList.remove("header-scrolled");
         document.getElementById("navvvv").style.backgroundColor = "transparent";
