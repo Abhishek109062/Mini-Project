@@ -1,5 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
-import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js";
+import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword,GoogleAuthProvider, signInWithPopup, getRedirectResult } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js";
+// import { getAuth,  } from
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyBvJks5M5v8AP2H4stR0AHYPs_yY2fIHdo",
@@ -12,6 +14,7 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
+const provider = new GoogleAuthProvider(app);
 
 document.getElementById('reg-btn').addEventListener('click', function () {
   document.getElementById('register-div').style.display = "inline";
@@ -24,6 +27,10 @@ document.getElementById("log-btn").addEventListener('click', function () {
   document.getElementById("login-div").style.display = "inline";
 });
 
+
+document.getElementById("go-home").addEventListener('click', function () {
+  window.location.href = "./index.html";
+});
 
 document.getElementById("login-btn").addEventListener('click', function () {
   const loginEmail = document.getElementById("login-email").value;
@@ -59,6 +66,32 @@ document.getElementById("register-btn").addEventListener('click', function () {
       document.getElementById("register-div").style.display = "none";
       document.getElementById("result").innerHTML = "Sorry ! <br>" + errorMessage;
     });
+});
+
+
+document.getElementById("google").addEventListener('click', function() {
+  // signInWithRedirect(auth, provider);
+  
+  signInWithPopup(auth, provider)
+  .then((result) => {
+    // This gives you a Google Access Token. You can use it to access the Google API.
+    const credential = GoogleAuthProvider.credentialFromResult(result);
+    const token = credential.accessToken;
+    // The signed-in user info.
+    const user = result.user;
+    window.location.href = "./index.html";
+    alert(user.displayName);
+    // ...
+  }).catch((error) => {
+    // Handle Errors here.
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    // The email of the user's account used.
+    const email = error.customData.email;
+    // The AuthCredential type that was used.
+    const credential = GoogleAuthProvider.credentialFromError(error);
+    // ...
+  });
 });
 
 document.getElementById("log-out-btn").addEventListener('click', function () {

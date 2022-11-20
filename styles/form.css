@@ -9,7 +9,7 @@ transform: translate(-50%,-50%);
 border: 2px solid white;
 background-color: orange;
 width:400px;
-height:400px;
+height: 450px;
 text-align: center;
 color:white;
 transition: background-color 1s;
@@ -40,6 +40,22 @@ transition: background-color 1s;
 background-color: rgb(255, 141, 145);
 color:white;
 }
+
+.go-home{
+    width:150px;
+}
+
+#google{
+    display: inline-block;
+    /* position: relative; */
+    width: 200px;
+}
+
+
+.google-icon{
+    float: left;
+}
+
 .an-btn{
     width: 280px;
 margin-top: 10px;
@@ -50,6 +66,17 @@ color:black;
 font-size: 11pt;
 transition: background-color 1s;
 }
+
+
+.btn-style:hover{
+    cursor: pointer;
+}
+
+#google:hover{
+    background-color: mediumslateblue;
+}
+
+
 .an-btn:hover{
     background-color: rgb(255, 141, 145);
     color:white;
