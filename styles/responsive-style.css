@@ -56,6 +56,9 @@
 @media (max-width:991px) {
 
     /* 01 Navbar CSS */
+    .header{
+        background-color: white;
+    }
     .header .navbar {
         background-size: cover;
         padding: 2rem;

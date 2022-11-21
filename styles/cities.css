@@ -13,7 +13,7 @@ body{
     background-repeat: no-repeat;
 }
 
-.btn{
+/* .btn{
     margin-top: 1rem;
     display: inline-block;
     font-size: 1.7rem;
@@ -22,12 +22,12 @@ body{
     border-radius: .5rem;
     cursor: pointer;
     padding:.8rem 3rem;
-}
+} */
 
-.btn:hover{
+/* .btn:hover{
     background: var(--green);
     letter-spacing: .1rem;
-}
+} */
 
 .dishes{
     margin-top: 15rem;

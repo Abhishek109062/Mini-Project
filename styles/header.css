@@ -74,7 +74,7 @@ button:hover {
     background:var(--white); 
 } 
 ::-webkit-scrollbar-thumb {
-    background: var(--secondary-color); 
+    background: #99582a; 
 }  
 
 .main-btn{
@@ -84,18 +84,19 @@ button:hover {
     /* transition: all 0.4s ease-in-out; */
     padding: 10px 27px;
     background-color: var(--bg-white);
-    border: 2px solid #99582a;
-    color: #46494c;
+    /* border: 2px solid #99582a; */
+    /* color: #46494c; */
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-decoration: none;
+    font-family: var(--primary-font);
 }
 .main-btn:hover{
-    background: var(--bg-white);
+    /* background: var(--bg-white);
     color: var(--secondary-color);
-    border: 0.2rem solid var(--secondary-color);
+    border: 0.2rem solid var(--secondary-color); */
 }
 
 /* navbar css */

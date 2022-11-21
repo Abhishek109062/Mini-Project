@@ -134,7 +134,7 @@ button:hover {
   background: var(--white);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--secondary-color);
+  background: #99582a;
 }
 
 .main-btn {
@@ -436,21 +436,27 @@ section {
 }
 
 .landing_product_section .product-card .product-img {
-  margin-bottom: 7rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
-.landing_product_section .product-card h3 {
+.landing_product_section .product-card h3{
   color: var(--primary-text);
+  margin: auto;
+  width: 50%;
 }
-
+.landing_product_section .product-card .head_ing h3{
+  color: var(--primary-text);
+  margin: 600px;
+  width: 50%;
+}
 .landing_product_section .product-card span {
   font-size: 1.8rem;
   font-weight: 600;
   text-transform: uppercase;
   color: var(--secondary-color);
   margin-right: 0.5rem;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
   transition: all 0.3s;
 
 }
