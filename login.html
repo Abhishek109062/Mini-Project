@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style1.css" />
+  <title>Figaro Food</title>
+  <link rel="icon" href="./images/logo.png" type="image/icon type">
+  <script type="module" src="./js/form.js"></script> 
+</head>
+<!-- Light BOX-->
+<link href="path/to/lightbox.css" rel="stylesheet" />
+
+<!-- bootstrap 5 cdn -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- font awesome cdn link  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+<!-- font awesome cdn -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<link rel="stylesheet" href="./styles/header.css">
+<link rel="stylesheet" href="./styles/style.css">
+<link rel="stylesheet" href="./styles/login.css">
+<link rel="stylesheet" href="./styles/responsive-style.css">
+
+
+<body>
+  <header id="full_nav">
+    <div class="header">
+      <div class="container">
+        <nav id="navvvv" class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <img src="./images/logo.png" height="70px" width="70px" alt="" srcset=""> <!-- logo-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"  style="color: red;">
+              <!-- <span class="navbar-toggler-icon"></span> -->
+              <ion-icon class="navbar-toggler-icon" name="menu-outline"></ion-icon>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./cities.html">Cities</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacts</a>
+                </li>
+              </ul>
+              <a class="navbar-brand me-4 mt-1" href="#">
+                <ion-icon class="bag" name="bag-handle-outline"></ion-icon>
+              </a>
+
+              <div class="nav-item mt-3 mt-lg-0">
+                <a class="main-btn ordernow" href="./login.html">Login</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="rest-container">
+    <div class="login">
+        <div class="poster"></div>
+
+        <div class="login-form">
+            <div class="center-box" id="login-div">
+                <h3 >Login</h3>
+                <input type="email" id="login-email" class="text-field" name = "login-email" placeholder="Email" required/>
+                <input type="password" id="login-password" class="text-field" name = "login-password" placeholder="Password" required/><br>
+                <button id="login-btn" class="btn-style">Login</button><br><br>
+                <div id="google" class="btn-style">
+                    <div><img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+                    </div>
+                       <div id="google-text"><p>Login with Google</p> </div>
+                </div> <br> <br>
+                <button id="reg-btn" class="btn-style an-btn">Don't have an account? REGISTER</button><br><br>
+                <button id="go-home" class="go-home btn-style"> <p>Go to home page</p> </button>
+                
+            </div>
+
+            <div class="center-box" id="register-div">
+                <h3>Register</h3>
+                <input type="email" id="register-email" class = "text-field" name = "register-email" placeholder="Email" required/><br>
+                <input type="password" id="register-password" class = "text-field" name = "register-password" placeholder = "Password" required/><br><br><br>
+                <button id="register-btn" class="btn-style">Register</button><br><br>
+                <button id="log-btn" class="btn-style an-btn">Have an account? LOGIN</button><br><br>
+                <button id="go-home" class="go-home btn-style">Go to home page</button>
+            
+            </div>
+            <div id="result-box">
+                <h3 id="result"></h3>
+                <button id="log-out-btn" class="btn-style">LOG OUT</button>
+            </div> 
+    
+    
+        </div>
+    </div>
+
+
+  </section>
+  
+
+
+  
+
+   <!-- Footer section -->
+   <section class="footer_wrapper mt-3 mt-md-0 bg-dark">
+    <div class="container px-5 px-lg-0">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Figaro Food</h5>
+                <p class="mb-4 ps-0 company_details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                    dignissim erat ut laoreet
+                    pharetra....</p>
+                <div class="contact-info">
+                    <ul class="list-unstyled">
+                        <li><a href="#"><ion-icon name="home-outline"></ion-icon></i> No. 96, South City, London</a></li>
+                        <li><a href="#"><ion-icon name="call-outline"></ion-icon></i>+1 222 3333</a></li>
+                        <li><a href="#"><ion-icon name="mail-outline"></ion-icon>info@example.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Customer Support</h5>
+                <ul class="link-widget p-0">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Product Returns</a></li>
+                    <li><a href="#">Wholesale Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Quick Links</h5>
+                <ul class="link-widget p-0">
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Term Of Use</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Partner With Us</h5>
+                <div class="form-group mb-4">
+                    <input type="email" class="form-control bg-transparent rounded-start" placeholder="Enter Your Email Here">
+                    <input type="text" class="form-control bg-transparent mt-1 rounded-start" placeholder="Enter Your Location">
+                    <button type="submit" class="btn main-btn mt-3">Submit</button>
+                </div>
+                <h5>Stay Connected</h5>
+                <ul class="social-network d-flex align-items-center p-0">
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></i></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></i></a></li>
+                    <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></i></a></li>
+                    <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid copyright-section">
+        <p>Copyright <a href="#">© Foodies.</a> All Rights Reserved</p>
+    </div>
+</section>
+<!-- Footer Section Exit  -->
+
+
+  <!-- bootstrap 5 cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous">
+  </script>
+ 
+
+</body>
+
+</html>
