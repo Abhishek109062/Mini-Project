@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }, step);
     }
     counter("count1", 0, 6, 3000);
-    counter("count2", 0, 20, 0, 3000);
-    counter("count3", 0, 2000, 3)
+    counter("count2", 0, 20, 3000);
+    counter("count3", 0, 2000, 3000)
     counter("count4", 0, 500, 3000);
  });
