@@ -30,6 +30,7 @@
   <link rel="stylesheet" href="./styles/cities.css">
   <link rel="stylesheet" href="./styles/rest_style.css">
   <link rel="stylesheet" href="./styles/map.css">
+  <link rel="stylesheet" href="./styles/cart.css">
   <body>
     <header id="full_nav ">
       <div class="header">
@@ -59,8 +60,11 @@
                     <a class="nav-link" href="#">Contacts</a>
                   </li>
                 </ul>
-                <a class="navbar-brand me-4 mt-1" href="#"><ion-icon class="bag " name="bag-handle-outline"></ion-icon></a>
-
+                <!-- <a class="navbar-brand me-4 mt-1" href="#"><ion-icon class="bag " name="bag-handle-outline"></ion-icon></a> -->
+                <div class="iconShopping">
+                  <p>0</p>
+                  <a class="navbar-brand me-4 mt-1" href="#"><ion-icon class="bag " name="bag-handle-outline"></ion-icon></a>
+                </div>
                 <div class="nav-item mt-3 mt-lg-0">
                   <!-- <a class="main-btn ordernow" href="./login.html">Login</a> -->
                   <form class="form-inline my-2 my-lg-0">
@@ -304,9 +308,21 @@
       </div>
   </section>
 
+
  
   
 <!-- Footer Section Exit  -->
+
+<div class="cartBox">
+  <div class="cart">
+    
+    <div class="close"><ion-icon name="close-outline"></ion-icon></div>
+    
+    <h1>Cart</h1>
+    <table class="table"></table>
+    <button class="btn">Order</button>
+  </div>
+</div>
 
 
     <!-- bootstrap 5 cdn -->
@@ -317,9 +333,10 @@
     <script src="./js/lightbox.js"></script>
 
     <!-- custom js -->
+    <script src="./js/cart.js"></script>
     <script src="./js/swiper-bundle.min.js"></script>   
     <script src="./js/slider.js"></script>
     <script src="./js/script.js"></script>
-    <script src="map.js"></script>
+    <script src="./js/map.js"></script>
   </body>
 </html>
