@@ -13,8 +13,21 @@ body{
     background-repeat: no-repeat;
 }
 
-.btn{
+
+.attToCart {
     margin-top: 1rem;
+    /* display: ; */
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding:.8rem 3rem;
+}
+
+
+.btn{
+    margin-top: 20px;
     /* display: ; */
     font-size: 1.7rem;
     color:#fff;
@@ -28,6 +41,12 @@ body{
     background: var(--green);
     letter-spacing: .1rem;
 }
+
+.attToCart:hover{
+    background: var(--green);
+    letter-spacing: .1rem;
+}
+
 
 .dishes{
     margin-top: 15rem;
@@ -67,7 +86,14 @@ body{
     text-align: center;
 }
 
-.dishes .box-container .box .heart,
+p{
+
+    color: #27ae60;
+    font-size: 25px;
+
+}
+
+/* .dishes .box-container .box .heart,
 .dishes .box-container .box .eye{
     position: absolute;
     top:1.5rem;
@@ -103,7 +129,7 @@ body{
 
 .dishes .box-container .box:hover .eye{
     left:1.5rem;
-}
+} */
 
 .dishes .box-container .box img{
     height:17rem;
