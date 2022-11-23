@@ -189,35 +189,7 @@ section {
   padding-bottom: 10rem;
   min-height: auto;
 }
-/* 
-.contact .contact-form,
-.distributors .contact-form {
-    background-color: var(--light-color);
-    padding: 5rem;
-    box-shadow: 0 0.2rem 1.5rem rgb(0 0 0 / 4%);
-}
 
-.contact .contact-form .form-control:focus,
-.distributors .contact-form .form-control:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-.contact .contact-form .form-control::placeholder,
-.distributors .contact-form .form-control::placeholder {
-    color: var(--primary-text);
-}
-
-.contact .contact-form .form-control,
-.distributors .contact-form .form-control {
-    padding: 1rem 1.5rem;
-    border-radius: 0.rem;
-    border: 0.1rem solid var(--secondary-color);
-    color: var(--primary-text);
-    font-size: 1.5rem;
-    font-weight: 400;
-    font-family: var(--secondary-font);
-} */
 
 /* navbar css */
 
