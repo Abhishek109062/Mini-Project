@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style1.css" />
+    <title>Figaro Food</title>
+    <link rel="icon" href="./images/logo.png" type="image/icon type">
+  </head>
+
+  <!-- bootstrap 5 cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- icon iconic cdn -->
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!-- font awesome cdn -->
+<link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" />
+
+  <!-- style css -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/responsive-style.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/cart.css">
+  <link rel="stylesheet" href="./styles/about-us.css">
+
+
+  <body>
+    <header id="full_nav ">
+      <div class="header">
+        <div class="container">
+          <nav id = "navvvv" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <img src="./images/logo.png" alt="" srcset="" height="70px" width="70px">  <!-- logo-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"  style="color: red;">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <ion-icon class="navbar-toggler-icon" name="menu-outline"></ion-icon>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./cities.html">Cities</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#C1">Contacts</a>
+                  </li>
+                </ul>
+                <!-- <a class="navbar-brand me-4 mt-1" href="#"><ion-icon class="bag " name="bag-handle-outline"></ion-icon></a> -->
+
+                <div class="iconShopping">
+                  <p>0</p>
+                  <a class="navbar-brand me-4 mt-1" href="#"><ion-icon class="bag " name="bag-handle-outline"></ion-icon></a>
+                </div>
+  
+
+                <div class="nav-item mt-3 mt-lg-0">
+                  <!-- <a class="main-btn ordernow" href="./login.html">Login</a> -->
+                  <form class="form-inline my-2 my-lg-0">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                          <a id="userlink" class="main-btn nav-link me-2" href=""></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a id="signoutlink" class="main-btn nav-link" href=""></a>
+                    </li>
+                    </ul>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="about-us">
+        <div class="about-box">
+            <div class="about-top">
+                <div class="about-pic" id="about-p1"></div>
+            </div>
+            <div class="about-bottom">
+                <h4>Ankur Gupta</h4>
+                <p>B.Tech 3th'd year student</p>
+                <p>GLA University, Mathura</p>
+            </div>
+        </div>
+        <div class="about-box">
+            <div class="about-top">
+                <div class="about-pic" id="about-p2"></div>
+            </div>
+            <div class="about-bottom">
+                <h4>Harsh Sharma</h4>
+                <p>B.Tech 3th'd year student</p>
+                <p>GLA University, Mathura</p>
+            </div>
+        </div>
+        <div class="about-box">
+            <div class="about-top">
+                <div class="about-pic" id="about-p3"></div>
+            </div>
+            <div class="about-bottom">
+                <h4>Abhishek Kumar</h4>
+                <p>B.Tech 3th'd year student</p>
+                <p>GLA University, Mathura</p>
+            </div>
+        </div>
+        <div class="about-box">
+            <div class="about-top">
+                <div class="about-pic" id="about-p4"></div>
+            </div>
+            <div class="about-bottom">
+                <h4>Rahul Patel</h4>
+                <p>B.Tech 3th'd year student</p>
+                <p>GLA University, Mathura</p>
+            </div>
+        </div>
+    </section>
+
+
+  <!-- Footer section -->
+  <section id="C1" class="footer_wrapper mt-3 mt-md-0 bg-dark">
+    <div class="container px-5 px-lg-0">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Figaro Food</h5>
+                <p class="mb-4 ps-0 company_details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                    dignissim erat ut laoreet
+                    pharetra....</p>
+                <div class="contact-info">
+                    <ul class="list-unstyled">
+                      <li><a href="#"><ion-icon name="home-outline"></ion-icon></i> No.96,Vrindavan,Mathura</a></li>
+                      <li><a href="#"><ion-icon name="call-outline"></ion-icon></i>+91 9999988888</a></li>
+                      <li><a href="#"><ion-icon name="mail-outline"></ion-icon>figarofood@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Customer Support</h5>
+                <ul class="link-widget p-0">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Product Returns</a></li>
+                    <li><a href="#">Wholesale Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Quick Links</h5>
+                <ul class="link-widget p-0">
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Term Of Use</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                <h5>Partner With Us</h5>
+                <div class="form-group mb-4">
+                    <input type="email" class="form-control bg-transparent rounded-start" placeholder="Enter Your Email Here">
+                    <input type="text" class="form-control bg-transparent mt-1 rounded-start" placeholder="Enter Your Location">
+                    <button type="submit" class="btn main-btn mt-3">Submit</button>
+                </div>
+                <h5>Stay Connected</h5>
+                <ul class="social-network d-flex align-items-center p-0">
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></i></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></i></a></li>
+                    <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></i></a></li>
+                    <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid copyright-section">
+        <p>Copyright <a href="#">© Figaro Foods.</a> All Rights Reserved</p>
+    </div>
+</section>
+<!-- Footer Section Exit  -->
+<div class="cartBox">
+  <div class="cart">
+    
+    <div class="close"><ion-icon name="close-outline"></ion-icon></div>
+    
+    <h1>Cart</h1>
+    <table class="table"></table>
+    <button class="order">Order</button>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+    <!-- bootstrap 5 cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+
+    <!-- custom js -->
+    <script src="./js/cart.js"></script>
+    <script src="./js/script.js"></script>
+    
+  
+  </body>
+</html>
+

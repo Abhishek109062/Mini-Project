@@ -151,7 +151,7 @@
 	font-size: 20px;
 }
 
-.cart-btn{
+.order{
     margin-top: 1rem;
     /* display: ; */
     font-size: 1.7rem;
@@ -162,7 +162,9 @@
     padding:.8rem 3rem;
 }
 
-.cart-btn:hover{
+.order:hover{
     background: var(--green);
     letter-spacing: .1rem;
 }
+
+

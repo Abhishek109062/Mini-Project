@@ -475,6 +475,12 @@ section {
 .landing_product_section .product-card:hover .product-detail {
   bottom: 0;
 }
+
+
+.index-img{
+  width: 250px;
+  height: 200px
+}
 /*
 ==========================================
 FAQ section Design

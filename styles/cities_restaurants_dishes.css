@@ -26,22 +26,6 @@ body{
 }
 
 
-.btn{
-    margin-top: 20px;
-    /* display: ; */
-    font-size: 1.7rem;
-    color:#fff;
-    background: var(--black);
-    border-radius: .5rem;
-    cursor: pointer;
-    padding:.8rem 3rem;
-}
-
-.btn:hover{
-    background: var(--green);
-    letter-spacing: .1rem;
-}
-
 .attToCart:hover{
     background: var(--green);
     letter-spacing: .1rem;
@@ -158,9 +142,53 @@ p{
 }
 
 
+
+
 .tags{
     font-size: 30px;
 }
+
+/* for resturant */
+.box img:hover{
+    
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 0.5s ease;
+
+}
+
+.box{
+    text-align: center;
+}
+
+/* for cities */
+.city{
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease;
+}
+
+.city:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.dishes .box-container .box .span1{
+    color: #1a758a;
+    font-weight: 500;
+    margin-right: 1rem;
+    font-size: 17px;
+}
+
+
+
+
+
 
 
 /* Media Query */
@@ -168,6 +196,11 @@ p{
 @media (max-width:550px) {
     .dishes .box-container{
     grid-template-columns: repeat(1, minmax(28rem, 1fr)) !important;
+    }
+
+    .dishes .box-container .box img{
+        height:auto;
+        width: auto;
     }
 
     .order form .inputBox .input{
